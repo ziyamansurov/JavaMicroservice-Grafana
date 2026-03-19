@@ -9,9 +9,9 @@ import java.util.List;
 public class StudentController {
 
     private List<Student> students = List.of(
-            new Student(1L, "Alice", "alice@example.com"),
-            new Student(2L, "Bob", "bob@example.com"),
-            new Student(3L, "Charlie", "charlie@example.com")
+            new Student(1L, "ziya", "ziya@gmail.com"),
+            new Student(2L, "rufer", "rufet@gmail.com"),
+            new Student(3L, "cavid", "cavid@gmail.com")
     );
 
     // GET all students
