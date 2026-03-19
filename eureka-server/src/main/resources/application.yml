@@ -1,0 +1,19 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: eureka-server
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+#  ```
+#
+#---
+#
+### Then start in this order:
+#```
+#1. Run EurekaServerApplication   → check http://localhost:8761
+#2. Run MentorTaskApplication     → should register on dashboard
